@@ -1,0 +1,30 @@
+{
+  "passed": true,
+  "auditedAt": "2026-10-05T18:41:50+00:00",
+  "validatedDataSha256": "33bd9e45af3ebdde1516b7041c9c11921f3726c48a1f3cbf101335e9e060e46d",
+  "algorithm": "Independent newest-to-oldest ID selection, streaming CSV, decimal medians before unit conversion; no import of production pipeline.",
+  "checks": {
+    "sourceArchives": 43,
+    "sourceHashesVerified": 43,
+    "districtYearTypeCells": 650,
+    "cityYearTypeCells": 50,
+    "medianComparisons": 700,
+    "quartileComparisons": 1400,
+    "sampleCountsAndSuppression": true,
+    "parkingCounts": true,
+    "latestCohortXmlMatches": true
+  },
+  "sourceRows": 493681,
+  "uniqueSourceRows": 493677,
+  "updatedDuplicateRows": 4,
+  "eligibleRecords": 296068,
+  "latestOfficialPeriod": "資料內容：登記日期 115年6月11日至 115年9月10日之買賣案件，及訂約日期 115年5月11日至 115年8月10日之租賃案件，及交易日期115年5月11日至 115年8月10日之預售屋案件",
+  "limitations": [
+    "Same declared population and filtering rules as the product were audited; this does not validate the economic representativeness of that population.",
+    "Sale-file contracts can precede completed-house registration by years. Recent transaction-year cohorts may gain later handovers and corrections.",
+    "Building classification changes and unclear-use exclusions can change historical composition.",
+    "Official unit prices can include unseparated parking. Townhouse values are totals and must never share a unit-price comparison scale.",
+    "Special-remark keywords are a declared heuristic, not a guarantee that every remaining sale is ordinary."
+  ],
+  "errors": []
+}

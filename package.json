@@ -1,0 +1,16 @@
+{
+  "name": "taoyuan-housing-observatory",
+  "version": "1.0.0",
+  "private": true,
+  "description": "桃園市官方住宅交易資料觀察網站",
+  "scripts": {
+    "test": "node --check app.js && node tests/data.cjs && node tests/ui.cjs && node tests/actual-ui.cjs",
+    "build": "node scripts/build.cjs"
+  },
+  "devDependencies": {
+    "jsdom": "27.0.0"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}
